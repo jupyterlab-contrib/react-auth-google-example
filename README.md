@@ -31,8 +31,8 @@ Browser IndexDB stores:
 
 Actions:
 
-- Get token:
-  ![react-auth-google-get-token](./img/react-auth-google-get-token.webm)
+- Usage video:
+  [react-auth-google-get-token.webm](https://github.com/oscar6echo/jupyterlab-extension-example-react-auth-google/assets/2219383/8233ace0-d35d-43b7-b695-824afffa81ee)
 
 - Use token from notebook to read/write a Google sheet (for example):
   [demo-2-google-sheet-api.ipynb](./notebook/demo-2-google-sheet-api.ipynb)
