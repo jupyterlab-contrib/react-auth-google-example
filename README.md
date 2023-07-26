@@ -1,7 +1,25 @@
-# React Auth Google Widget
+# JupyterLab Extension Example: React Auth Google Widget
 
-This extension is based on the [ReactWidget](https://github.com/jupyterlab/extension-examples/tree/main/react-widget) and enables users to log in with Google Identity service for webapps and then use the token to interact with Google services.  
+This JupyterLab extension enables users to log in with Google Identity service for webapps and then use the token to interact with Google services.  
 A notebook to read/write Google sheets is included.
+
+## Overview
+
+Main points:
+
+- It is used to obtain an OAuth token from [Google Identity](https://developers.google.com/identity/gsi/web/guides/get-google-api-clientid) and use it to interact with its services, like Google [Sheets](https://developers.google.com/sheets/api/guides/concepts), [Drive](https://developers.google.com/drive/api/guides/about-sdk), etc.
+
+- This extension is **NOT official**. It is an individual initiative and will be maintained on a best effort basis.
+
+- It was build as a copy/paste/modify (as of jul23) from the official [React template](https://github.com/jupyterlab/extension-examples/tree/main/react-widget). It may be interesting as an example of a non trivial React widget.
+
+- It shows how to use a JS lib available as a UMD bundle in the context of JupyterLab.
+
+- It shows how to write to the browser [IndexedDB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API) from the JS using lib [dexie.js](https://dexie.org/docs/). See demo notebook [demo-2-google-sheet-api.ipynb](./notebook/demo-2-google-sheet-api.ipynb) and associated [jlite_util](./notebook/jlite_util) small package.
+
+- It is meant to be used primarily in [JupyterLite](https://github.com/jupyterlite/jupyterlite) as only a JupyterLite kernel can access the IndexedDB. However it can be used in JupyterLab. In this case use the 'Copy Token' button in the extension and paste to notebook. A Google token is valid for 1 hour so this is not really painful.
+
+## Screenshots
 
 Browser IndexDB stores:
 
@@ -10,6 +28,8 @@ Browser IndexDB stores:
 
 - Google auth token data:
   ![react-auth-google-idb-auth](./img/react-auth-google-idb-auth.png)
+
+Actions:
 
 - Get token:
   ![react-auth-google-get-token](./img/react-auth-google-get-token.webm)
