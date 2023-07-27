@@ -1,5 +1,7 @@
 # JupyterLab Extension Example: React Auth Google Widget
 
+[![Extension status](https://img.shields.io/badge/status-draft-critical 'Not yet working')](https://jupyterlab-contrib.github.io/index.html)
+
 This JupyterLab extension enables users to log in with Google Identity service for webapps and then use the token to interact with Google services.  
 A notebook to read/write Google sheets is included.
 
@@ -32,7 +34,7 @@ Browser IndexDB stores:
 Actions:
 
 - Usage video:
-  [react-auth-google-get-token.webm](https://github.com/oscar6echo/jupyterlab-extension-example-react-auth-google/assets/2219383/8233ace0-d35d-43b7-b695-824afffa81ee)
+  [react-auth-google-get-token.webm](https://raw.githubusercontent.com/jupyterlab-contrib/react-auth-google-example/main/img/react-auth-google-get-token.webm)
 
 - Use token from notebook to read/write a Google sheet (for example):
   [demo-2-google-sheet-api.ipynb](./notebook/demo-2-google-sheet-api.ipynb)
