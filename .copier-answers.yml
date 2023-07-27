@@ -13,7 +13,7 @@ mimetype: ''
 mimetype_name: ''
 project_short_description: A minimal JupyterLab extension using a React Widget.
 python_name: jupyterlab_examples_react_auth_google
-repository: https://github.com/jupyterlab/extension-examples
+repository: https://github.com/jupyterlab-contrib/react-auth-google-example
 test: true
 viewer_name: ''
 

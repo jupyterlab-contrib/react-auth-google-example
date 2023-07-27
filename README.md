@@ -13,7 +13,7 @@ Main points:
 
 - This extension is **NOT official**. It is an individual initiative and will be maintained on a best effort basis.
 
-- It was build as a copy/paste/modify (as of jul23) from the official [React template](https://github.com/jupyterlab/extension-examples/tree/main/react-widget). It may be interesting as an example of a non trivial React widget.
+- It was build as a copy/paste/modify (as of jul23) from the official [React template](https://github.com/jupyterlab-contrib/react-auth-google-example/tree/main/react-widget). It may be interesting as an example of a non trivial React widget.
 
 - It shows how to use a JS lib available as a UMD bundle in the context of JupyterLab.
 
